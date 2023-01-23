@@ -24,6 +24,13 @@ namespace Currency_Converter
         {
             InitializeComponent();
         }
+        private void load_combobox_left(object sender, RoutedEventArgs e)
+        {
+            left_combo_box.Items.Add("US Dollars");
+            left_combo_box.Items.Add("US Dollars");
+            left_combo_box.Items.Add("US Dollars");
+            left_combo_box.Items.Add("US Dollars");
+        }
 
         private void minimize_win(object sender, RoutedEventArgs e)
         {
