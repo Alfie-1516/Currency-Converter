@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="700" Width="1000" WindowStyle="None" 
         AllowsTransparency="True" Background="Transparent" WindowStartupLocation="CenterScreen">
+     
     <Window.Resources>
         <ImageBrush x:Key="Files" ImageSource="Files\close.png" Stretch="Uniform"/>
         <Style x:Key="FocusVisual">
@@ -124,9 +125,25 @@
                     <ComboBoxItem>Alfred</ComboBoxItem>
                     <ComboBoxItem>Alfred</ComboBoxItem>
                     <ComboBoxItem>Alfred</ComboBoxItem>
-                    
+
                 </ComboBox>
                 <ComboBox HorizontalAlignment="Left" Margin="570,126,0,0" VerticalAlignment="Top" Width="354" Height="66"/>
+                <TextBlock TextWrapping="Wrap" Text="TextBlock"/>
+                <TextBlock HorizontalAlignment="Left" Margin="39,475,0,0" TextWrapping="Wrap" Text="Rate:" VerticalAlignment="Top" Height="57" Width="177" FontSize="36" FontFamily="Algerian"/>
+                <TextBox HorizontalAlignment="Left" Margin="179,475,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134" Height="57">
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
+                <TextBox HorizontalAlignment="Left" Margin="396,475,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134" Height="57">
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
             </Grid>
         </Border>
     </Border>
