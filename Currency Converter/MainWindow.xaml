@@ -81,10 +81,10 @@
             <Grid>
                 <Grid.Background>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                        <GradientStop Color="Blue" Offset="0.0"/>
-                        <GradientStop Color="Blue" Offset="0.25"/>
-                        <GradientStop Color="Blue" Offset="0.5"/>
-                        <GradientStop Color="Blue" Offset="1.0"/>
+                        <GradientStop Color="#A1CCA5" Offset="0.0"/>
+                        <GradientStop Color="#8FB996" Offset="0.25"/>
+                        <GradientStop Color="#709775" Offset="0.5"/>
+                        <GradientStop Color="#415D43" Offset="1.0"/>
                     </LinearGradientBrush>
                 </Grid.Background>
                 <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Multi Converter" VerticalAlignment="Top" Height="61" Width="518" RenderTransformOrigin="-0.058,-1.092" FontSize="36" TextAlignment="Center" FontFamily="Algerian"/>
