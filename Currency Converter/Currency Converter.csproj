@@ -106,5 +106,35 @@
   <ItemGroup>
     <Resource Include="Files\swap.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\united-states.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\japan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\european-union.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\united-kingdom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\australia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\canada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\switzerland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\china.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\hong-kong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Files\new-zealand.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -121,14 +121,71 @@
                 </TextBox>
                 <Image HorizontalAlignment="Left" Height="65" Margin="456,205,0,0" VerticalAlignment="Top" Width="96" Source="Files\swap.png"/>
                 <ComboBox x:Name="left_combo_box" HorizontalAlignment="Left" Margin="39,126,0,0" VerticalAlignment="Top" Width="354" Height="66">
-                    <ComboBoxItem>Alfred</ComboBoxItem>
-                    <ComboBoxItem>Alfred</ComboBoxItem>
-                    <ComboBoxItem>Alfred</ComboBoxItem>
-                    <ComboBoxItem>Alfred</ComboBoxItem>
+                    
+                    <ComboBoxItem>
+                        <WrapPanel>
+                            <Image Source="Files\united-states.png" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            <TextBlock Text="  United States" VerticalAlignment="Top" FontSize="20"  />
+                            <TextBlock Text=" USD" FontWeight="DemiBold" FontSize="20" VerticalAlignment="Bottom" HorizontalAlignment="Center" FontFamily="Algerian"/>
+                        </WrapPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <WrapPanel>
+                            <Image Source="Files\japan.png" Height="25" Stretch="Uniform"/>
+                            <TextBlock Text="  Japanese Yen" VerticalAlignment="Center" FontSize="20" />
+                        </WrapPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <WrapPanel>
+                            <Image Source="Files\european-union.png" Height="25" Stretch="Uniform"/>
+                            <TextBlock Text="  Euro" VerticalAlignment="Center" FontSize="20" />
+                        </WrapPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <WrapPanel>
+                            <Image Source="Files\united-kingdom.png" Height="25" Stretch="Uniform"/>
+                            <TextBlock Text="  Pound sterling" VerticalAlignment="Center" FontSize="20" />
+                        </WrapPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <WrapPanel>
+                            <Image Source="Files\australia.png" Height="25" Stretch="Uniform"/>
+                            <TextBlock Text="  Australian Dollar" VerticalAlignment="Center" FontSize="20" />
+                        </WrapPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <WrapPanel>
+                            <Image Source="Files\canada.png" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            <TextBlock Text="  Canadian Dollar" VerticalAlignment="Center" FontSize="20" />
+                        </WrapPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <WrapPanel>
+                            <Image Source="Files\switzerland.png" Height="25" Stretch="Uniform"/>
+                            <TextBlock Text="  Swiss Franc" VerticalAlignment="Center" FontSize="20" />
+                        </WrapPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <WrapPanel>
+                            <Image Source="Files\china.png" Height="25" Stretch="Uniform"/>
+                            <TextBlock Text="  Chinese Renminbi " VerticalAlignment="Center" FontSize="20" />
+                        </WrapPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <WrapPanel>
+                            <Image Source="Files\hong-kong.png" Height="25" Stretch="Uniform"/>
+                            <TextBlock Text="  Hong Kong Dollar" VerticalAlignment="Center" FontSize="20" />
+                        </WrapPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <WrapPanel>
+                            <Image Source="Files\new-zealand.png" Height="25" Stretch="Uniform"/>
+                            <TextBlock Text="  New Zealand Dollar" VerticalAlignment="Center" FontSize="20" />
+                        </WrapPanel>
+                    </ComboBoxItem>
 
                 </ComboBox>
                 <ComboBox HorizontalAlignment="Left" Margin="570,126,0,0" VerticalAlignment="Top" Width="354" Height="66"/>
-                <TextBlock TextWrapping="Wrap" Text="TextBlock"/>
                 <TextBlock HorizontalAlignment="Left" Margin="39,475,0,0" TextWrapping="Wrap" Text="Rate:" VerticalAlignment="Top" Height="57" Width="177" FontSize="36" FontFamily="Algerian"/>
                 <TextBox HorizontalAlignment="Left" Margin="179,475,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="134" Height="57">
                     <TextBox.Resources>
