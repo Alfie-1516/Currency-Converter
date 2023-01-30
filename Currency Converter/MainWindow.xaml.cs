@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,17 +21,26 @@ namespace Currency_Converter
     /// </summary>
     public partial class MainWindow : Window
     {
+        public int currency;
         public MainWindow()
         {
             InitializeComponent();
         }
-        private void load_combobox_left(object sender, RoutedEventArgs e)
+        private void load_combobox_right(object sender, RoutedEventArgs e)
         {
-            left_combo_box.Items.Add("US Dollars");
-            left_combo_box.Items.Add("US Dollars");
-            left_combo_box.Items.Add("US Dollars");
-            left_combo_box.Items.Add("US Dollars");
+            ComboBoxItem item = (ComboBoxItem)right_combo_box.SelectedItem;
+            currency = right_combo_box.SelectedIndex;
+            Trace.WriteLine(currency);
         }
+        private void convert(object sender, RoutedEventArgs e)
+        {
+            Text_right.Text = Text_left.Text;
+            Trace.WriteLine(right_combo_box.Items.Count);
+            Trace.WriteLine(right_combo_box.Items.IndexOf(0));
+          
+           
+        }
+
 
         private void minimize_win(object sender, RoutedEventArgs e)
         {
