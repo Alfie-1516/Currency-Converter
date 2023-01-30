@@ -55,7 +55,6 @@ namespace Currency_Converter
             ComboBoxItem selected_value = (ComboBoxItem)right_combo_box.SelectedItem;
             currency2 = selected_value.Name;
             Text_right.Text = currency2;
-            Text_right.Text = currency2;
 
 
 
