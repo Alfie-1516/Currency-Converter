@@ -130,7 +130,7 @@
                             <TextBlock Text=" USD"  FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Castellar" FontWeight="Light"/>
                         </WrapPanel>
                     </ComboBoxItem>
-                    <ComboBoxItem Name="JPY1">
+                    <ComboBoxItem Name="JPY11">
                         <WrapPanel>
                             <Image Source="Files\japan.png" Height="30" Stretch="Uniform" VerticalAlignment="Top" HorizontalAlignment="Center"/>
                             <TextBlock Text=" Japanese Yen" VerticalAlignment="Center" FontSize="20" FontFamily="Cascadia Mono SemiLight" FontWeight="Light" />
