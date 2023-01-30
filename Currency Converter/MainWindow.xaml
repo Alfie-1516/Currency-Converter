@@ -197,7 +197,8 @@
                 </ComboBox>
 
 
-                <ComboBox Name="right_combo_box"  HorizontalAlignment="Left" Margin="570,126,0,0" VerticalAlignment="Top" Width="354" Height="66" VerticalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible">
+                <ComboBox x:Name="right_combo_box"  HorizontalAlignment="Left" Margin="570,126,0,0" VerticalAlignment="Top" Width="354" Height="66" VerticalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible"
+                           SelectionChanged="right_combo_box_SelectionChanged">
                     <ComboBoxItem Name="US" >
                         <WrapPanel>
                             <Image Source="Files\united-states.png" Height="30" Stretch="Uniform" VerticalAlignment="Top" HorizontalAlignment="Center"/>
@@ -285,7 +286,6 @@
                         </Style>
                     </TextBox.Resources>
                 </TextBox>
-                <Button Content="Button" HorizontalAlignment="Center" Margin="0,310,0,0" VerticalAlignment="Top" Height="47" Width="108" Click="convert"/>
             </Grid>
         </Border>
     </Border>
