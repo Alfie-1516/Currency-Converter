@@ -113,7 +113,7 @@
                         </Style>
                     </TextBox.Resources>
                 </TextBox>
-                <TextBox x:Name="Text_right" HorizontalAlignment="Left" Margin="570,205,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="354" Height="66">
+                <TextBox x:Name="Text_right" HorizontalAlignment="Left" Margin="570,205,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="354" Height="66" TextChanged="Text_right_TextChanged">
                     <TextBox.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="CornerRadius" Value="10"/>

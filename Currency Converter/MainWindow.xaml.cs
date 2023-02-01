@@ -23,6 +23,7 @@ namespace Currency_Converter
     {
         public string currency1;
         public string currency2;
+        public float convertedRate;
         public MainWindow()
         {
             InitializeComponent();
@@ -60,6 +61,14 @@ namespace Currency_Converter
 
         }
 
-
+        private void Text_right_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            switch (currency2)
+            {
+                case "USD1":
+                    //Text_right.Text = convertedRate.ToString;
+                    break;
+            }
+        }
     }
 }
