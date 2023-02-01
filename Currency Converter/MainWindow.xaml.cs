@@ -57,16 +57,15 @@ namespace Currency_Converter
             currency2 = selected_value.Name;
             Text_right.Text = currency2;
 
-
-
         }
 
         private void Text_right_TextChanged(object sender, TextChangedEventArgs e)
         {
+            string stringconvertedRate = convertedRate.ToString();
             switch (currency2)
             {
                 case "USD1":
-                    //Text_right.Text = convertedRate.ToString;
+                    Text_right.Text = stringconvertedRate;
                     break;
             }
         }
